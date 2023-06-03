@@ -1,0 +1,30 @@
+def palindrome ( string)
+
+
+#creat 2 string and compare
+
+string= S=:""
+reverse_string :""
+
+begin 
+#enter word
+S = input("Enter a word: ")
+# Check if the word is a palindrome
+if is_palindrome(user_word):
+    print("The word is a palindrome.")
+else:
+    print("The word is not a palindrome.")
+
+-----
+#Converts the given string into lowercase  
+string = string.lower();  
+for i in range(0, len(string)//2):  
+    if(string[i] != string[len(string)-i-1]):  
+        flag = False;  
+        break;  
+   
+if(flag):  
+    print("Given string is palindrome");  
+else:  
+    print("Given string is not a palindrome");  
+
